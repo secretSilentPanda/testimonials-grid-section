@@ -1,0 +1,39 @@
+@mixin cardify() {
+  border-radius: 7px;
+  padding: 2em;
+  margin: 2em;
+  box-shadow: 6px 7px 29px -16px #2b3331;
+
+  &__identity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid $light-gray;
+    }
+
+    .info {
+      margin-left: 2em;
+
+      .name {
+        opacity: 80%;
+      }
+      .status {
+        opacity: 50%;
+      }
+    }
+  }
+  .title {
+    font-weight: 500;
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+  }
+
+  .review__text {
+    opacity: 70%;
+  }
+}

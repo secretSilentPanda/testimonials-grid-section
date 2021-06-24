@@ -1,0 +1,13 @@
+@media (min-width: 1200px) {
+  main {
+    max-width: 90%;
+    margin: 4em auto;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: auto;
+
+    grid-template-areas:
+      "daniel daniel jonathan kira"
+      "jeanette patrick patrick kira";
+  }
+}

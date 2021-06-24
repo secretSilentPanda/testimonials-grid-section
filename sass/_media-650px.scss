@@ -1,0 +1,36 @@
+@media (min-width: 650px) {
+  main {
+    margin: 3em 2em;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+
+    grid-template-areas:
+      " daniel patrick "
+      "jeanette jonathan "
+      "kira kira ";
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .daniel {
+    grid-area: daniel;
+  }
+  .jonathan {
+    grid-area: jonathan;
+  }
+
+  .jeanette {
+    grid-area: jeanette;
+  }
+
+  .patrick {
+    grid-area: patrick;
+  }
+  .kira {
+    grid-area: kira;
+  }
+}

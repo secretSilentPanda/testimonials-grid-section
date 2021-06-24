@@ -1,0 +1,32 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: $light-gray;
+}
+
+.card {
+  @include cardify();
+}
+
+.daniel {
+  color: white;
+  background-color: $moderate-violet;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 5%;
+}
+
+.jonathan {
+  color: white;
+  background-color: $very-dark-grayish-blue;
+}
+
+.jeanette,
+.kira {
+  color: black;
+  background-color: white;
+}
+
+.patrick {
+  color: white;
+  background-color: $very-dark-blackish-blue;
+}
